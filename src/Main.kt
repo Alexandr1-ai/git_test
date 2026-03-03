@@ -15,4 +15,12 @@ fun main()
     {
         print("$number2 * $i = ${number2 * i}\n")
     }
+
+    print("Введите число: ")
+    val number3 = readLine()!!.toInt()
+
+    for(i in 1..1000)
+    {
+        print("$number3 * $i = ${number3 * i}\n")
+    }
 }
